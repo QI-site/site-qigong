@@ -1,1 +1,221 @@
-
+@charset "utf-8";
+/* CSS Document */
+.noir-12 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000;
+}
+.noir-12-fond-gris {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000;
+	background-color: #DBDBDB;
+}
+.noir-gras-italique-12 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: bold;
+	color: #000;
+}
+.noir-14-centre {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000;
+	text-align: center;
+}.noir-14-gauche {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #060;
+	text-align: center;
+}
+.noir-16 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #000;
+}.noir-gras-italique-16 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: bold;
+	color: #000;
+}
+.bleu-14 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #00F;
+	text-decoration: underline;
+	font-style: normal;
+	font-weight: normal;
+}
+.bleu-14px {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #00F;
+	text-decoration: underline;
+	font-weight: normal;
+	font-style: normal;
+}
+.bleu-24px {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #00F;
+}
+.vert-clair-fond-bleu-fonce-gras-16 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #CFC;
+	background-color: #00F;
+	text-align: center;
+}
+.vert-14-gauche {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #060;
+	text-align: left;
+}
+.vert-14-centre {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #060;
+	text-align: center;
+}
+.vert-16-gauche {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #060;
+	text-align: left;
+}
+.vert-16-centre {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #060;
+	text-align: center;
+}
+.vert-foncé-20-gauche {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #060;
+	text-align: left;
+}
+.vert-foncé-24-gauche {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #060;
+	text-align: left;
+}
+.vert-foncé-24 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #060;
+	text-align: center;
+}
+.vert-foncé-gras-18-centre {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #060;
+	text-align: center;
+}
+.vert-clair-fond-fonce-gras-16 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #CFC;
+	background-color: #030;
+	text-align: center;
+}
+.vert-clair-fond-fonce-gras-24-gauche {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #CFC;
+	background-color: #030;
+	text-align: left;
+}
+.vert-clair-fond-fonce-gras-24 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #CFC;
+	background-color: #030;
+	text-align: center;
+}
+.rouge-14-centre {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #F00;
+	text-align: center;
+}
+.rouge-16-centre {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #F00;
+	text-align: center;
+}
+.rouge-italique-14 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: italic;
+	color: #F00;
+}
+.rouge-gras-italique-16 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: bold;
+	color: #F00;
+	text-align: center;
+}
+.rouge-foncé-24 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #F00;
+	text-align: center;
+}
+.bleu-20-fond-gris {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #00F;
+	background-color: #DBDBDB;
+	text-align: center;
+}
+.jaune-foncé-16 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #FF0;
+	text-align: center;
+}
+.jaune-foncé-24 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #FF0;
+	text-align: center;
+}
+.orange-foncé-16 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #FF6600;
+	text-align: center;
+}
+.orange-foncé-24-centre {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #FF6600;
+	text-align: center;
+}
+.orange-foncé-24-gauche {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #FF6600;
+	text-align: left;}
+.fond-gris {
+	color: #000;
+	background-color: #999;
+}
+.vert-foncé-gras-18-centre {
+	font-size: 18px;
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
