@@ -36,5 +36,45 @@ pratique du Qi Gong au parc de Marbeaumont </p></td>
 </table>
 <br />
 <br />
+<div id="fenetreInfo" class="fond-fenetre">
+  <div class="contenu-fenetre">
+    <button class="croix"
+            onclick="fermerFenetre()"
+            aria-label="Fermer">&times;</button>
+
+    <div id="texteAnnonce">Chargement de l'annonce...</div>
+    <button onclick="fermerFenetre()">Fermer</button>
+  </div>
+</div>
+  </div>
+</div>
+
+<script>
+function ouvrirFenetre() {
+  fetch("annonce.html")
+    .then(function(response) {
+      if (!response.ok) {
+        throw new Error("Annonce introuvable");
+      }
+      return response.text();
+    })
+    .then(function(html) {
+      document.getElementById("texteAnnonce").innerHTML = html;
+      document.getElementById("fenetreInfo").style.display = "flex";
+    })
+    .catch(function(error) {
+      console.log("Erreur :", error);
+    });
+}
+
+function fermerFenetre() {
+  document.getElementById("fenetreInfo").style.display = "none";
+}
+
+window.addEventListener("load", function() {
+  alert("JavaScript fonctionne");
+  ouvrirFenetre();
+});
+</script>
 </body>
 </html>
