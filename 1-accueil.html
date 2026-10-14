@@ -54,17 +54,22 @@ function ouvrirFenetre() {
 fetch("annonce.html")
 .then(function(response) {
 if (!response.ok) {
-throw new Error("Erreur HTTP : " + response.status);
+throw new Error("Annonce introuvable");
 }
 return response.text();
 })
 .then(function(html) {
-document.getElementById("texteAnnonce").innerHTML = html;
-document.getElementById("fenetreInfo").style.display = "flex";
+if (html.indexOf("AUCUNE_ANNONCE") !== -1) {
+return;
+}
+
+  document.getElementById("texteAnnonce").innerHTML = html;
+  document.getElementById("fenetreInfo").style.display = "flex";
 })
 .catch(function(error) {
-alert("Impossible de charger l'annonce : " + error.message);
+  console.log("Erreur :", error);
 });
+
 }
 
 function fermerFenetre() {
