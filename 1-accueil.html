@@ -59,12 +59,17 @@ throw new Error("Annonce introuvable");
 return response.text();
 })
 .then(function(html) {
-document.getElementById("texteAnnonce").innerHTML = html;
-document.getElementById("fenetreInfo").style.display = "flex";
+if (html.indexOf("AUCUNE_ANNONCE") !== -1) {
+return;
+}
+
+  document.getElementById("texteAnnonce").innerHTML = html;
+  document.getElementById("fenetreInfo").style.display = "flex";
 })
 .catch(function(error) {
-console.log("Erreur :", error);
+  console.log("Erreur :", error);
 });
+
 }
 
 function fermerFenetre() {
