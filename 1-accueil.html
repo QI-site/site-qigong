@@ -43,7 +43,7 @@ pratique du Qi Gong au parc de Marbeaumont </p></td>
             aria-label="Fermer">&times;</button>
 
     <div id="texteAnnonce">Chargement de l'annonce...</div>
-    <button onclick="fermerFenetre()">Fermer</button>
+    <button onClick="fermerFenetre()">Fermer</button>
   </div>
 </div>
   </div>
@@ -71,9 +71,9 @@ function fermerFenetre() {
   document.getElementById("fenetreInfo").style.display = "none";
 }
 
+alert("La page 1-accueil est chargée");
 window.addEventListener("load", function() {
-  alert("JavaScript fonctionne");
-  ouvrirFenetre();
+  document.getElementById("fenetreInfo").style.display = "flex";
 });
 </script>
 </body>
